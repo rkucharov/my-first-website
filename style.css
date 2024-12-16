@@ -1,0 +1,437 @@
+/* Общие стили */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1A1A1A; /* Тёмный фон */
+    color: #DFBCB2; /* Светлый цвет текста */
+    line-height: 1.6;
+}
+
+/* Шапка */
+header {
+    background-color: #0D0D0D; /* Чёрный фон шапки */
+    color: #C9D46C; /* Цвет текста */
+    padding: 20px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo-image {
+    width: 120px; /* Размер логотипа */
+    height: auto;
+}
+
+nav {
+    flex-grow: 1;
+    text-align: right;
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-list li {
+    display: inline;
+}
+
+.nav-list a {
+    color: #FAAB01; /* Акцентный цвет ссылок */
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-list a:hover {
+    background-color: #338309;
+    color: #DFBCB2;
+}
+
+/* Секция Hero */
+.hero {
+    text-align: center;
+    padding: 30px;
+    background-color: #262626; /* Тёмный серый фон */
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    max-width: 800px;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    color: #FAAB01; /* Акцентный цвет заголовка */
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #DFBCB2;
+}
+
+.hero-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+}
+
+/* Секция Популярных разделов */
+.popular {
+    text-align: center;
+    padding: 30px;
+    background-color: #0D0D0D;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    max-width: 1000px;
+}
+
+.popular h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #FAAB01;
+}
+
+.popular-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.popular-item {
+    background-color: #262626;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+.popular-item h3 {
+    font-size: 1.5rem;
+    color: #C9D46C;
+    margin-bottom: 10px;
+}
+
+.popular-item p {
+    font-size: 1rem;
+    color: #DFBCB2;
+    margin-bottom: 15px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #338309;
+    color: #DFBCB2;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #FAAB01;
+    color: #0D0D0D;
+}
+
+/* Футер */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #0D0D0D;
+    color: #C9D46C;
+    border-top: 3px solid #338309;
+}
+
+
+/* Общие стили */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1A1A1A; /* Тёмный фон */
+    color: #DFBCB2; /* Светлый текст */
+    line-height: 1.6;
+}
+
+/* Шапка */
+header {
+    background-color: #0D0D0D;
+    color: #C9D46C;
+    padding: 20px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo-image {
+    width: 120px;
+    height: auto;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-list a {
+    color: #FAAB01;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-list a:hover {
+    background-color: #338309;
+    color: #DFBCB2;
+}
+
+/* Секция История */
+.history-overview {
+    padding: 30px;
+    background-color: #262626;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    max-width: 800px;
+}
+
+.history-overview h2 {
+    font-size: 2rem;
+    color: #FAAB01;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.history-overview p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+/* Секция Фотогалерея */
+.photo-gallery {
+    text-align: center;
+    padding: 30px;
+    background-color: #0D0D0D;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    max-width: 1000px;
+}
+
+.photo-gallery h2 {
+    font-size: 2rem;
+    color: #FAAB01;
+    margin-bottom: 20px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.gallery-item {
+    background-color: #262626;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+}
+
+.gallery-item p {
+    font-size: 1rem;
+    color: #DFBCB2;
+}
+
+/* Футер */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #0D0D0D;
+    color: #C9D46C;
+    border-top: 3px solid #338309;
+}
+
+
+/* Секция Медиа */
+.media-overview {
+    text-align: center;
+    padding: 30px;
+    background-color: #0D0D0D;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    max-width: 800px;
+}
+
+.media-overview h2 {
+    font-size: 2rem;
+    color: #FAAB01;
+    margin-bottom: 15px;
+}
+
+.media-overview p {
+    font-size: 1.2rem;
+    color: #DFBCB2;
+    margin-bottom: 20px;
+}
+
+.media-link {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #338309;
+    color: #DFBCB2;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.media-link:hover {
+    background-color: #FAAB01;
+    color: #0D0D0D;
+}
+
+
+/* Секция Магазин */
+.store {
+    text-align: center;
+    padding: 30px;
+    background-color: #0D0D0D;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    max-width: 1000px;
+}
+
+.store h2 {
+    font-size: 2rem;
+    color: #FAAB01;
+    margin-bottom: 20px;
+}
+
+/* Таблица */
+.store-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #1A1A1A;
+    color: #DFBCB2;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+.store-table th, .store-table td {
+    padding: 15px;
+    border: 1px solid #338309;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.store-table th {
+    background-color: #338309;
+    color: #C9D46C;
+    font-size: 1.2rem;
+}
+
+.store-table td {
+    background-color: rgba(255, 255, 255, 0.1);
+    font-size: 1rem;
+}
+
+.store-table img {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .store-table {
+        font-size: 0.9rem;
+    }
+
+    .store-table img {
+        width: 80px;
+    }
+}
+
+/* Секция Контакты */
+.contact-info {
+    text-align: center;
+    padding: 30px;
+    background-color: #0D0D0D;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    max-width: 800px;
+}
+
+.contact-info h2 {
+    font-size: 2rem;
+    color: #FAAB01;
+    margin-bottom: 20px;
+}
+
+.contact-card {
+    text-align: left;
+    background-color: #262626;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+.contact-card p {
+    font-size: 1.2rem;
+    color: #DFBCB2;
+    margin: 10px 0;
+}
+
+.contact-card a {
+    color: #FAAB01;
+    text-decoration: none;
+}
+
+.contact-card a:hover {
+    text-decoration: underline;
+}
